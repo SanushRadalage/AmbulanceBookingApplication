@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1083809946207",
+    "firebase_url": "https://ambula-bf480.firebaseio.com",
+    "project_id": "ambula-bf480",
+    "storage_bucket": "ambula-bf480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083809946207:android:69444244347c00ba",
+        "android_client_info": {
+          "package_name": "com.example.asus.ambi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083809946207-n59lsrq93o5kutk2edicthl50h0uegcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.ambi",
+            "certificate_hash": "b90f3cbaea31f30e9db8e1ff09a4427f200660f7"
+          }
+        },
+        {
+          "client_id": "1083809946207-p0kne6qd07v931dh1nosscnfvik6j2hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsI7BscTJVLpP9W4zUZP2edttre55q8Qg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083809946207-p0kne6qd07v931dh1nosscnfvik6j2hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

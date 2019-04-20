@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ambula</string>
+    <string name="title_activity_emergencymap">Map</string>
+    <string name="title_activity_patientmap">Map</string>
+    <string name="title_activity_drivermap">Map</string>
+
+</resources>

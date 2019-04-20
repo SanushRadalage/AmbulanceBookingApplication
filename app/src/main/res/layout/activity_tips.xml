@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint"
+    tools:context=".tips">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/round2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="17dp"
+            android:layout_weight="1"
+            android:text="Asthma Attack"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/asthma"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/l2"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:text="Seizures"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/seizures"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l3"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/round2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_weight="1"
+            android:text="CPR"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/cpr"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l4"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_weight="1"
+            android:text="Bleed"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/bleeds"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l5"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/round2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_weight="1"
+            android:text="Burns"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/burn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l6"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:layout_weight="1"
+            android:text="Falls"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/falls"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l7"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/round2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="14dp"
+            android:layout_weight="1"
+            android:text="Chemical Burns"
+            android:textColor="@color/textColor"
+            android:textSize="28px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/burn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l8"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:text="Snake Bites"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/snake"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l9"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/round2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_weight="1"
+            android:text="Electrical Burns"
+            android:textColor="@color/textColor"
+            android:textSize="30px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/electric"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/l10"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="465dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_weight="1"
+            android:text="Crush Injuries"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/crush"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l11"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="465dp"
+        android:background="@drawable/round2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:text="Eye Injuries"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/eye"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/l12"
+        android:layout_width="125dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="465dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:text="Cardiac"
+            android:textColor="@color/textColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/hatck"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
